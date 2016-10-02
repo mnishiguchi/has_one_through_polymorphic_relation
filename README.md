@@ -1,24 +1,8 @@
-# README
+# has_one_through_polymorphic_relation
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In this repo, I learn has one though polymorphic relation, following the article [Rails: Has One Through Polymorphic Relation](http://6ftdan.com/allyourdev/2016/03/22/rails-has-one-through-polymorphic-relation/) by DANIEL P. CLARK
 
-Things you may want to cover:
+## Polymorphic-child-type relation
+- E.g., `Item` `has_many` `Polymorphic` `Product`s
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![](erd_drawing.jpg)
